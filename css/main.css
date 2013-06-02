@@ -337,7 +337,35 @@ body { font: 16px/26px Helvetica, Helvetica Neue, Arial;  -webkit-font-smoothing
 /* ==========================================================================
    Insert Author's custom styles
    ========================================================================== */
+a:link {
+	text-decoration: none;
+	color: #26AAE1;
+}
+a:visited {
+	text-decoration: none;
+	color: #26AAE1;
+}
+a:active {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #CFE9F4;
+}
 
+#footer-left {
+    float: left;
+}
+
+#footer-mid {
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center
+}
+
+#footer-right {
+    float: right;
+}
 
 
 /* ==========================================================================
