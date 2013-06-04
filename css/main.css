@@ -357,26 +357,18 @@ a:hover {
 	text-align: center;
 }
 
-#footer-left {
-    float: left;
-}
 
-#footer-mid {
-    margin-left: auto;
-    margin-right: auto;
-	text-align: center
-}
-
-#footer-right {
-    float: right;
-}
 
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) { }
+@media only screen and (min-width: 320px) { 
+    .created-by {
+    	text-align: center;
+	}
+}
 
 @media only screen and (min-width: 680px) {
 	.wrapper { width: 90%; margin: 0 5%; }
@@ -407,18 +399,21 @@ a:hover {
 	}
 }
 
-/* iPad Portrait */
+/* iPad Portrait and higher */
 @media only screen and (min-width: 768px) {
     .main-container section{ width: 25%; float: left; margin-right: 12%; }
     .main-container section.last{ margin-right: 0; }
     .footer-container h1{ float: left; }
     .footer-container ul{ float: right; }
+    .created-by {
+    	float: right;
+	}
     .fader .flexslider1{ left: 225px; }
     .fader:before{ left: 204px; top:2px; }
     .flexslider2 { margin-bottom: 60px; }
 }
 
-/* Desktop */
+/* Desktop and higher */
 @media only screen and (min-width: 870px) {
 	.header-container h1{
 		/* background: url(../img/logo.png) no-repeat 0 0; Logo */
