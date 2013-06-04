@@ -317,7 +317,7 @@ body { font: 16px/26px Helvetica, Helvetica Neue, Arial;  -webkit-font-smoothing
 	margin-left: 0;
 }
 .footer-container li a{
-	color: #aabdcd; /* Change colour of footer links */
+	color: #26AAE1; /* Change colour of footer links */
 	font-weight: 700;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -326,7 +326,7 @@ body { font: 16px/26px Helvetica, Helvetica Neue, Arial;  -webkit-font-smoothing
 	transition: all 300ms ease-in-out;
 }
 .footer-container li a:hover{
-	color: #fbfdff; /* Change colour of footer links on hover */
+	color: #CFE9F4; /* Change colour of footer links on hover */
 }
 .footer-container footer {
 	color: #fff; 
@@ -340,7 +340,11 @@ body { font: 16px/26px Helvetica, Helvetica Neue, Arial;  -webkit-font-smoothing
 a:link {
 	text-decoration: none;
 	color: #26AAE1;
-}
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;}
 a:visited {
 	text-decoration: none;
 	color: #26AAE1;
@@ -356,8 +360,6 @@ a:hover {
 .appstore-links {
 	text-align: center;
 }
-
-
 
 
 /* ==========================================================================
