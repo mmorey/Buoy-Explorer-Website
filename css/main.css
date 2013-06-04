@@ -353,6 +353,10 @@ a:hover {
 	color: #CFE9F4;
 }
 
+.appstore-links {
+	text-align: center;
+}
+
 #footer-left {
     float: left;
 }
