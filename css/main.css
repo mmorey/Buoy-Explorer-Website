@@ -22,7 +22,7 @@ body { font: 16px/26px Helvetica, Helvetica Neue, Arial;  -webkit-font-smoothing
 
 
 .header-container {
-    background: #f3f8fc; /* Adjust Background colour of header */
+    background: #ffffff; /* Adjust Background colour of header */
     background-image: url(../img/bg-pattern@2x.png);
     color: #525b60;  /* Adjust colour of header text */
 	text-shadow: 1px 1px 0 #ffffff;
