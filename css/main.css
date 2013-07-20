@@ -36,8 +36,8 @@ body { font: 16px/26px Helvetica, Helvetica Neue, Arial;  -webkit-font-smoothing
 .header-container h1{
 	text-indent: -10000em;
 	position: relative;
-	width: 271px; /* Adjust Width for Logo if needed */
-	height: 93px; /* Adjust Height for Logo if needed */
+	width: 275px; /* Adjust Width for Logo if needed */
+	height: 160px; /* Adjust Height for Logo if needed */
 	background: url(../img/logo.png) no-repeat center 0; /* Change Your Logo Name */
 	background-size: 100%;
 	margin: 0 auto;
@@ -50,7 +50,7 @@ body { font: 16px/26px Helvetica, Helvetica Neue, Arial;  -webkit-font-smoothing
 	/* on retina, use image that's scaled by 2 */
 .header-container h1{
 	background: url(../img/logo@2x.png) no-repeat 0 0; /* Change Retina Logo */
-	background-size: 271px 93px; /* Adjust Width + Height for Logo if needed */
+	background-size: 275px 160px; /* Adjust Width + Height for Logo if needed */
 }
 }
 
