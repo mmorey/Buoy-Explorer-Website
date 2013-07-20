@@ -26,7 +26,7 @@ body { font: 16px/26px Helvetica, Helvetica Neue, Arial;  -webkit-font-smoothing
     background-image: url(../img/bg-pattern@2x.png);
     color: #525b60;  /* Adjust colour of header text */
 	text-shadow: 1px 1px 0 #ffffff;
-	padding-top: 50px;
+	padding-top: 20px;
 }
 
 
@@ -426,7 +426,7 @@ a:hover {
 	.ctaColumn { float: right; width: 52%; padding-bottom: 80px; text-align: left; padding-top: 70px; }
 	.signup:after{ right: 15%; }
 	.fader { float: left; width: 35%; }
-	.header-container { padding-top: 120px; }
+	.header-container { padding-top: 80px; }
 	.fader .flexslider1{ left: 9px; }
 	.fader:before{ content: ""; position: absolute; background-position: 0 0; width: 286px; height: 605px; left: -12px;top: 2px; }
 }
