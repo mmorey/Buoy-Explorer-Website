@@ -337,6 +337,11 @@ body { font: 16px/26px Helvetica, Helvetica Neue, Arial;  -webkit-font-smoothing
 /* ==========================================================================
    Insert Author's custom styles
    ========================================================================== */
+
+body {
+    background: #ffffff; /* Adjust Background colour of header */
+    background-image: url(../img/bg-pattern@2x.png);
+}   
 a:link {
 	text-decoration: none;
 	color: #26AAE1;
